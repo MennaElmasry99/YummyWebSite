@@ -9,10 +9,10 @@ import { searchAddEvent } from "./search.module.js";
 import { showLoading } from "./ui-render.module.js";
 
 //? fading out the onLoad Spinner
-$(document).ready(function () {
-  $(".onLoad").fadeOut(600);
-  $("body").css("overflow", "auto");
-});
+// $(document).ready(function () {
+//   $(".onLoad").fadeOut(600);
+//   $("body").css("overflow", "auto");
+// });
 
 /**
  * This NavBar script automatically closes the navbar on website rendering,
